@@ -41,4 +41,27 @@ function showResponse(age, name, food) {
 
 }
 
-getInfo();
+//getInfo();
+
+function getInfo() {
+	var weight = parseInt(prompt("Enter your weight in lbs:"));
+  var height = parseInt(prompt("Enter your height in inches:"));
+  calculateBmi(weight, height);
+}
+
+function calculateBmi(weight, height) {
+	console.log("Height: " + height);
+  console.log("Weight: " + weight);
+	var total = (weight / (height * height)) * 703;
+	alert("Your Calculated BMI is: " + total );
+}
+
+//getInfo();
+
+function calculateCelciusTemp() {
+	var temp = parseInt(prompt("Enter the temperature in Farenheit: "));
+  var result = (temp - 32) * 5/9;
+  alert("The temperature in Celcius is: " + result);
+}
+
+//calculateCelciusTemp();
