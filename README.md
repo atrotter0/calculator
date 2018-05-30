@@ -1,6 +1,6 @@
 # Calculator App
 
-#### Epicodus Intro to Programming lesson, 05.25.2018
+#### Epicodus Intro to Programming lesson, 05.29.2018
 
 #### By Abel Trotter and Brandon Betts
 
