@@ -1,1 +1,4 @@
-
+.divide {
+  transform: scale(1.3,2) rotate(-45deg);
+  font-size: 1.25rem;
+}

@@ -10,19 +10,29 @@
 <body>
   <div class="container">
     <h1>Calculator</h1>
-    <form id="add">
+    <form id="input" autocomplete="off">
       <div class="form-group">
-        <label for="add1">1st number:</label>
-        <input id="add1" class="form-control" type="text">
+        <label for="number1">1st number:</label>
+        <input id="number1" class="form-control" type="text">
       </div>
       <div class="form-group">
-        <label for="add2">2nd number:</label>
-        <input id="add2" class="form-control" type="text">
+        <label for="number2">2nd number:</label>
+        <input id="number2" class="form-control" type="text">
       </div>
-      <button type="submit" class="btn">Add!</button>
+      <button id="btn-add" type="submit" class="btn btn-default">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+      </button>
+      <button id="btn-subtract" type="submit" class="btn btn-default">
+        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+      </button>
+      <button id="btn-multiply" type="submit" class="btn btn-default">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+      </button>
+      <button id="btn-divide" type="submit" class="btn btn-default">
+        <span class="glyphicon glyphicon-minus divide" aria-hidden="true"></span>
+      </button>
     </form>
     <div id="output">
-      
     </div>
   </div>
 </body>
