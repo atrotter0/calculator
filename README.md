@@ -6,7 +6,7 @@
 
 ## Description
 
-A simple calculator built with JavaScript.
+A simple calculator built with JavaScript, jQuery, and Bootstrap.
 
 ## Setup/Contribution Requirements
 
@@ -20,6 +20,8 @@ A simple calculator built with JavaScript.
 * HTML
 * CSS
 * JavaScript
+* jQuery
+* Bootstrap
 
 ## Links
 
